@@ -1,8 +1,6 @@
 package primeNumber;
 
-import primeNumber.ThreadedInterruptablePrimeNumberTools;
-
-public class ThreadedPrimeNumberTools extends ThreadedInterruptablePrimeNumberTools implements Runnable	{
+public class ThreadedPrimeNumberTools extends ThreadedInteruptablePrimeNumberTools implements Runnable	{
 	private final int number;
 	public ThreadedPrimeNumberTools(int n)	{
 		super(n);
